@@ -4,7 +4,7 @@ $user = "root";
 $password = "";
 $database = "sistem_pakar_penyakit";
 
-$conn = mysqli_connect(hostname : $host, username : $user, password : $password, database : $database);
+$conn = mysqli_connect($host,$user,$password,$database);
 
 if (!$conn) 
 { 
