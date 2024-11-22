@@ -6,7 +6,8 @@ $database = "sistem_pakar_penyakit";
 
 $conn = mysqli_connect(hostname : $host, username : $user, password : $password, database : $database);
 
-if (!$conn) {
+if (!$conn) 
+{ 
     die("koneksi gagal: " . mysqli_connect_error());
 }
 
